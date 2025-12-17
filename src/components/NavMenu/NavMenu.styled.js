@@ -1,10 +1,14 @@
 import styled from "styled-components";
 import { NavLink } from 'react-router-dom'
 
-export const StlNavContainer = styled.ul`
+export const StlNavContainer = styled.div`
+display:flex;
+`
+
+export const StlNavUl = styled.ul`
 display:inline-flex;
+margin: 0;
 margin-left: 334px;
-margin-right: 219px;
 gap: 40px;
 `
 
@@ -15,5 +19,5 @@ font-style: Medium;
 font-size: 16px;
 line-height: 18px;
 letter-spacing: -2%;
-
+text-decoration: none;
 `
