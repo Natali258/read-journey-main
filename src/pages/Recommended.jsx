@@ -1,10 +1,11 @@
 import React from 'react'
-import { Icon } from '../components/Icon/Icon'
+
+import { Header } from '../components/Header/Header'
 
 export const Recommended = () => {
   return (
-    <div>Recommended
-      <Icon name='icon-Logo' size={20}/>
+    <div>
+     <Header/>
     </div>
   )
 }
