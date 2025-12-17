@@ -1,13 +1,14 @@
 import React from 'react'
 import { Icon } from '../Icon/Icon'
+import { StlLogoContainer, StlLogoText } from './Logo.styled'
 
 export const Logo = () => {
   return (
-    <div>
+    <StlLogoContainer>
         <span>
             <Icon name='icon-Logo' size={{width: 42, height: 17}}/>
         </span>
-        <span>read journey</span>
-    </div>
+        <StlLogoText>read journey</StlLogoText>
+    </StlLogoContainer>
   )
 }
