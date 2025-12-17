@@ -1,13 +1,13 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import { StlNavContainer } from './NavMenu.styled'
+// import { NavLink } from 'react-router-dom'
+import { StlNavContainer, StlNavLink } from './NavMenu.styled'
 
 export const NavMenu = () => {
   return (
     <>
         <StlNavContainer>
-            <NavLink to='/recommended'>Home</NavLink>
-            <NavLink to='/library'>My library</NavLink>
+            <StlNavLink to='/recommended'>Home</StlNavLink>
+            <StlNavLink to='/library'>My library</StlNavLink>
         </StlNavContainer>
     </>
   )
