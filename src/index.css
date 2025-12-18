@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
   margin: 32px;
   padding: 0;
-  /* background-color: var(--body-background-color); */
+  background-color: var(--body-background-color);
   color: var(--main-text-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
