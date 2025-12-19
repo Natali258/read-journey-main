@@ -1,20 +1,21 @@
 import React from 'react'
 import { Logo } from '../Logo/Logo'
-import { Form } from 'react-hook-form'
-import { NavLink } from 'react-router-dom'
+import { StlBtnRegister, StlFieldsRegister, StlFormRegister, StlInputRegister, StlNavLinkLogin, StlRegisterContainer, StlTitleRegister } from './RegisterForm.styled'
 
 export const RegisterForm = () => {
   return (
-    <div>
+    <StlRegisterContainer>
         <Logo/>
-        <h1>Expand your mind, reading a book</h1>
-        <form>
-            <input type="text" />
-            <input type="text" />
-            <input type="text" />
-            <button type='submit'>Registration</button>
-        </form>
-        <NavLink to='/login'>Already have an account?</NavLink>
-    </div>
+        <StlTitleRegister>Expand your mind, reading <span>a book</span></StlTitleRegister>
+        <StlFormRegister>
+            <StlFieldsRegister>
+                <StlInputRegister type="text" />
+                <StlInputRegister type="text" />
+                <StlInputRegister type="text" />
+            </StlFieldsRegister>
+            <StlBtnRegister type='submit'>Registration</StlBtnRegister>
+        </StlFormRegister>
+        <StlNavLinkLogin to='/login'>Already have an account?</StlNavLinkLogin>
+    </StlRegisterContainer>
   )
 }
