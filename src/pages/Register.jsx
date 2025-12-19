@@ -1,7 +1,15 @@
 import React from 'react'
+import RegisterForm from '../components/RegisterForm/RegisterForm'
+import MainPicture from '../components/MainPicture/MainPicture'
 
-export const Register = () => {
+
+
+const Register = () => {
   return (
-    <div>Register</div>
+    <div>
+      <section><RegisterForm/></section>
+      <section><MainPicture/></section>
+    </div>
   )
 }
+export default Register

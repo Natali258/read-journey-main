@@ -1,8 +1,8 @@
 import React from 'react'
-import { Logo } from '../Logo/Logo'
+import Logo from '../Logo/Logo'
 import { StlBtnRegister, StlFieldsRegister, StlFormRegister, StlInputRegister, StlNavLinkLogin, StlRegisterContainer, StlTitleRegister } from './RegisterForm.styled'
 
-export const RegisterForm = () => {
+const RegisterForm = () => {
   return (
     <StlRegisterContainer>
         <Logo/>
@@ -19,3 +19,4 @@ export const RegisterForm = () => {
     </StlRegisterContainer>
   )
 }
+export default RegisterForm
