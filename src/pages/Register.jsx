@@ -1,15 +1,16 @@
 import React from 'react'
 import RegisterForm from '../components/RegisterForm/RegisterForm'
 import MainPicture from '../components/MainPicture/MainPicture'
+import { StlSectionsContainer } from './Register.styled'
 
 
 
 const Register = () => {
   return (
-    <div>
+    <StlSectionsContainer>
       <section><RegisterForm/></section>
       <section><MainPicture/></section>
-    </div>
+    </StlSectionsContainer>
   )
 }
 export default Register

@@ -4,8 +4,8 @@ import styled from "styled-components";
 export const StlRegisterContainer = styled.div`
 display: block;
 position: relative;
-width: 600px;
-height: 100%;
+/* width: 600px; */
+/* min-height: 100vh; */
 padding: 40px 64px 40px 64px;
 border: 1px solid var(--container-background-color);
 border-radius: 30px;

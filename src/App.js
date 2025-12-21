@@ -4,12 +4,13 @@ import { Login } from "./pages/Login";
 import { Recommended } from "./pages/Recommended";
 import { Library } from "./pages/Library";
 import { MyBook } from "./pages/MyBook";
+import './App.css';
 
 
 function App() {
 
   return (
-    <div>
+    <div className="app">
       <Routes>
         <Route path="/" element={<Register/>} />
         <Route path="/register" element={<Register/>}></Route>

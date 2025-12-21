@@ -1,12 +1,8 @@
 
-/* body {
-  width: 100%;
+html body {
   height: 100%;
-} */
-
-body {
   box-sizing: border-box;
-  margin: 32px;
+  margin: 0;
   padding: 0;
   /* background-color: var(--body-background-color);
   color: var(--main-text-color); */
