@@ -4,4 +4,5 @@ export const StlSectionsContainer = styled.div`
 display: flex;
 gap: 16px;
 flex-direction: row;
+padding: 32px;
 `

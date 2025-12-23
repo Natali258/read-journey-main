@@ -6,6 +6,8 @@ import { StlSectionsContainer } from './Register.styled'
 
 
 const Register = () => {
+  // console.log(document.body.scrollHeight > window.innerHeight);
+  
   return (
     <StlSectionsContainer>
       <section><RegisterForm/></section>

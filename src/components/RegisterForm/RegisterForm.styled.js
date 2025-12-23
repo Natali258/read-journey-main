@@ -2,10 +2,12 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const StlRegisterContainer = styled.div`
-display: block;
+/* display: flex;
+flex-direction: column; */
 position: relative;
+flex:1;
 /* width: 600px; */
-/* min-height: 100vh; */
+/* height: 736px; */
 padding: 40px 64px 40px 64px;
 border: 1px solid var(--container-background-color);
 border-radius: 30px;
