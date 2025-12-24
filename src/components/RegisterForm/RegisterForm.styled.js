@@ -67,7 +67,7 @@ letter-spacing: 2%;
 export const StlNavLinkLogin = styled(NavLink)`
 position: absolute;
 bottom: 57px;
-left: 340px;
+left: 310px;
 
 font-family: Gilroy;
 font-weight: 500;

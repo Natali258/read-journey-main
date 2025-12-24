@@ -12,7 +12,7 @@ const LoginForm = () => {
                 <StlInputLogin></StlInputLogin>
                 <StlInputLogin></StlInputLogin>
             </StlFieldsLogin>
-            <StlBtnLogin type='submit'></StlBtnLogin>
+            <StlBtnLogin type='submit'>Log In</StlBtnLogin>
         </StlFormLogin>
         <StlNavLinkRegister to='/register'>Don’t have an account?</StlNavLinkRegister>
     </StlLoginContainer>

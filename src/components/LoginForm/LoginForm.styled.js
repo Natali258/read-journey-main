@@ -50,7 +50,7 @@ border: 1px solid var(--container-background-color)
 `
 
 export const StlBtnLogin = styled.button`
-margin-top: 82px;
+margin-top: 146px;
 width: 225px;
 padding: 16px 54px 16px 54px;
 border-radius: 30px;
@@ -67,7 +67,7 @@ letter-spacing: 2%;
 export const StlNavLinkRegister = styled(NavLink)`
 position: absolute;
 bottom: 57px;
-left: 340px;
+left: 310px;
 
 font-family: Gilroy;
 font-weight: 500;
