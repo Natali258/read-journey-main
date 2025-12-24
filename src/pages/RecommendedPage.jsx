@@ -3,7 +3,7 @@ import React from 'react'
 import { Header } from '../components/Header/Header'
 
 
-export const Recommended = () => {
+export const RecommendedPage = () => {
   return (
     <div>
      {/* <Header/> */}

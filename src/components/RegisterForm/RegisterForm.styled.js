@@ -2,8 +2,6 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const StlRegisterContainer = styled.div`
-/* display: flex;
-flex-direction: column; */
 position: relative;
 flex:1;
 /* width: 600px; */

@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import Register from "./pages/Register";
-import { Login } from "./pages/Login";
-import { Recommended } from "./pages/Recommended";
-import { Library } from "./pages/Library";
-import { MyBook } from "./pages/MyBook";
 import './App.css';
 import { AuthLayout } from "./components/Layouts/AuthLayout";
 import { MainLayout } from "./components/Layouts/MainLayout";
+import RegisterPage from "./pages/RegisterPage";
+import { LoginPage } from "./pages/LoginPage";
+import { RecommendedPage } from "./pages/RecommendedPage";
+import { LibraryPage } from "./pages/LibraryPage";
+import { MyBookPage } from "./pages/MyBookPage";
 
 
 function App() {
@@ -15,14 +15,14 @@ function App() {
     <div className="app">
       <Routes>
         <Route element={<AuthLayout/>}>
-          <Route path="/register" element={<Register/>}></Route>
-          <Route path="/login" element={<Login/>}></Route>
+          <Route path="/register" element={<RegisterPage/>}></Route>
+          <Route path="/login" element={<LoginPage/>}></Route>
         </Route>
         <Route element={<MainLayout/>}>
           <Route path="/" element={<AuthLayout/>} />
-          <Route path="/recommended" element={<Recommended/>}></Route>
-          <Route path="/library" element={<Library/>}></Route>
-          <Route path="/reading" element={<MyBook/>}></Route>
+          <Route path="/recommended" element={<RecommendedPage/>}></Route>
+          <Route path="/library" element={<LibraryPage/>}></Route>
+          <Route path="/reading" element={<MyBookPage/>}></Route>
         </Route>
       </Routes>
     </div>

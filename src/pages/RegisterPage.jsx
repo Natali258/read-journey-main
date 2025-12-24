@@ -1,13 +1,11 @@
 import React from 'react'
 import RegisterForm from '../components/RegisterForm/RegisterForm'
 import MainPicture from '../components/MainPicture/MainPicture'
-import { StlSectionsContainer } from './Register.styled'
+import { StlSectionsContainer } from './RegisterPage.styled'
 
 
 
-const Register = () => {
-  // console.log(document.body.scrollHeight > window.innerHeight);
-  
+const RegisterPage = () => {
   return (
     <StlSectionsContainer>
       <section><RegisterForm/></section>
@@ -15,4 +13,4 @@ const Register = () => {
     </StlSectionsContainer>
   )
 }
-export default Register
+export default RegisterPage
